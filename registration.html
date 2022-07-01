@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dang Ky</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="bg">
+                <img src="images/header.png" alt="nen">
+            </div>
+            <div class="logo1">
+                <img src="images/logo.png" alt="logo1">
+                <h1>KHOA CNTT&TT</h1>
+            </div>
+            <div class="logo2">
+                <h1>He Thong Quan Ly Dao Tao</h1>
+                <img src="images/logo2.png" alt="logo2">
+            </div>
+        </div>
+
+        <div id="nav">
+            <div class="leftnav">
+                <a href="#">Trang chu</a>|<a href="info.html">Gioi Thieu</a>
+            </div>
+            <div class="rightnav">
+                <a href="registration.html">Dang Ky</a>|<a href="login.html">Dang Nhap</a>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="leftside">
+                <div class="group-box">
+                    <div class="title"><b>DANH MUC</b></div>
+                    <ul>
+                        <li><a href="#">Khoa - Vien</a></li>
+                        <li><a href="#">Giang Vien</a></li>
+                        <li><a href="#">Sinh Vien</a></li>
+                        <li><a href="#">Nganh Dao Tao</a></li>
+                        <li><a href="#">Lop Chuyen Nganh</a></li>
+                        <li><a href="#">Lop Hoc Phan</a></li>
+                        <li><a href="#">Mon Hoc</a></li>
+                    </ul>
+                </div>
+
+                <div class="group-box">
+                    <div class="title"><b>MENU</b></div>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                        <li><a href="#">Link 5</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="main-content">
+                <div class="group-box">
+                    <div class="title"><b>Thong Tin Dang Ky</b></div>
+                    <div class="content1">
+                        <form action="#" method="post" id="form" onsubmit="return xuLyDangKy(this)">
+                            <table>
+                                <tr>
+                                    <td><label for="mssv">MSSV:</label></td>
+                                    <td><input type="text" name="mssv" id="mssv"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="hoten">HoTen:</label></td>
+                                    <td><input type="text" name="hoten" id="hoten"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="gioitinh">Gioi Tinh:</label></td>
+                                    <td>
+                                        <input type="radio" name="gioitinh" id="gioitinh">Nam
+                                        <input type="radio" name="gioitinh" id="gioitinh">Nu
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="ngaysinh">Ngay Sinh:</label></td>
+                                    <td><input type="date" name="ngaysinh" id="ngaysinh"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="quequan">Que Quan:</label></td>
+                                    <td><input type="text" name="quequan" id="quequan"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="sdt">SDT:</label></td>
+                                    <td><input type="tel" name="sdt" id="sdt"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="email">Email:</label></td>
+                                    <td><input type="email" name="email" placeholder="lvquan@gmail.com" id="email"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="anhdaidien">Anh Dai Dien:</label></td>
+                                    <td><input type="file" name="anhdaidien" id="anhdaidien"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="matkhau">Mat Khau:</label></td>
+                                    <td><input type="password" name="matkhau" placeholder="8-20 ky tu" id="matkhau"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="nhaplai">Nhap Lai Mat Khau:</label></td>
+                                    <td><input type="password" name="nhaplai" id="nhaplai"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" value="Dang Ky">
+                                        <input type="reset" value="Huy">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2020.
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

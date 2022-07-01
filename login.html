@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dang Nhap</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="bg">
+                <img src="images/header.png" alt="nen">
+            </div>
+            <div class="logo1">
+                <img src="images/logo.png" alt="logo1">
+                <h1>KHOA CNTT&TT</h1>
+            </div>
+            <div class="logo2">
+                <h1>He Thong Quan Ly Dao Tao</h1>
+                <img src="images/logo2.png" alt="logo2">
+            </div>
+        </div>
+
+        <div id="nav">
+            <div class="leftnav">
+                <a href="#">Trang chu</a>|<a href="info.html">Gioi Thieu</a>
+            </div>
+            <div class="rightnav">
+                <a href="registration.html">Dang Ky</a>|<a href="login.html">Dang Nhap</a>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="leftside">
+                <div class="group-box">
+                    <div class="title"><b>DANH MUC</b></div>
+                    <ul>
+                        <li><a href="#">Khoa - Vien</a></li>
+                        <li><a href="#">Giang Vien</a></li>
+                        <li><a href="#">Sinh Vien</a></li>
+                        <li><a href="#">Nganh Dao Tao</a></li>
+                        <li><a href="#">Lop Chuyen Nganh</a></li>
+                        <li><a href="#">Lop Hoc Phan</a></li>
+                        <li><a href="#">Mon Hoc</a></li>
+                    </ul>
+                </div>
+
+                <div class="group-box">
+                    <div class="title"><b>MENU</b></div>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                        <li><a href="#">Link 5</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="main-content">
+                <div class="group-box">
+                    <div class="title"><b>Thông Tin Dang Nhap</b></div>
+                    <div class="content1">
+                        <form action="#" method="post" id="form" onsubmit="return logged(this);">
+                            <table>
+                                <tr>
+                                    <td><label for="taikhoan">Tai Khoan:</label></td>
+                                    <td><input type="text" name="taikhoan" id="taikhoan"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="matkhau">Mat Khau:</label></td>
+                                    <td><input type="password" name="matkhau" id="matkhau"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="checkbox" name="luu" id="luu">Luu thong tin nguoi dung</td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" onclick="logged(this.form); return false;"
+                                            value="Dang Nhap">
+                                        <input type="reset" value="Huy">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            Copyright &copy; 2020.
+        </div>
+
+        <script src="js/main.js"></script>
+    </div>
+
+</body>
+
+</html>

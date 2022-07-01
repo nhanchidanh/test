@@ -1,0 +1,137 @@
+#wrapper{
+	width: 1200px;
+    margin: 0px auto;
+    box-shadow: 3px 3px 11px 2px;
+	border-radius: 10px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+}
+
+.bg img{
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.logo1{
+	display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.logo1 h1{
+	color: blue;
+	text-shadow: 1px 1px 1px;
+}
+
+.logo1 img{
+	width: 200px;
+	margin-left: 20px;
+}
+
+.logo2{
+	margin-right: 60px;
+}
+
+.logo2 img{
+	width: 369px;
+}
+
+.logo2 h1{
+	color: red;
+	text-shadow: 1px 1px 1px;
+}
+
+#nav{
+	display: flex;
+    justify-content: space-between;
+    background-color: #03a9f4;
+    padding: 15px;
+	color: white;
+}
+
+#nav a{
+	text-decoration: none;
+    font-weight: bold;
+	color: white;
+}
+
+#main{
+	display: flex;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	position: relative;
+}
+
+.leftside{
+	width: 20%;
+	
+}
+
+.group-box{
+	border:1px solid #999;
+    background:#f3f3f3;
+    border-radius:4px;
+    box-shadow: rgb(221 221 221) 7px 5px 10px;
+    margin-bottom:  10px;
+    padding-bottom: 10px;
+	
+}
+
+.group-box .title{
+	background-color:  #03a9f4;
+	color: white;
+    padding: 10px;
+}
+
+.group-box ul{
+	list-style: none;
+}
+
+.group-box ul a{
+	text-decoration: none;
+}
+
+.main-content{
+	width: 77%;
+	margin-left: 1%;
+}
+
+.main-content .title,.content{
+	text-align: center;
+}
+
+#form{
+	justify-content: center;
+    display: flex;
+}
+
+#footer{
+	text-align: center;
+	background-color: #03a9f4;
+    padding: 15px;
+	color: white;
+	margin-top: 50px;
+	border-radius: 0 0 10px 10px;
+}
+
